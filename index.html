@@ -4,31 +4,31 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Checkpoint html</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <nav>
+      <h1 class="navbar">Hi this is part of a navbar</h1>
+      <br />
       <a href="./contact.html" target="_parent">Contact Us</a>
       <br />
       <a href="./about.html" target="_parent">About us</a>
       <br />
       <a href="./index.html" target="_parent"> Home page</a>
-      <br />
     </nav>
     <br />
-    <h1 id="Welcome">Welcome</h1>
+    <a href="#bottom" id="Welcome">Go to Bottom</a>
+    <h1>Welcome</h1>
     <br />
-    <h2><i>This is the first website</i></h2>
-    <br />
-    <br />
-    <img src="./image10.png" alt="Website1" />
-    <br />
-    <br />
-    <h2><del>This is the second website</del></h2>
-    <br />
-    <br />
-    <img src="./images.jpg" alt="Website2" />
-    <br />
-    <br />
+    <div class="image1">
+      <h2><i>This is the first website</i></h2>
+      <img src="./image10.png" alt="Website1" />
+    </div>
+    <div class="image2">
+      <h2><del>This is the second website</del></h2>
+      <img src="./images.jpg" alt="Website2" />
+    </div>
+
     <table border="1">
       <tr>
         <th>Name</th>
@@ -78,8 +78,9 @@
     ></video>
     <br />
     <br />
-    <a href="#Welcome">Go to Top</a>
+    <a href="#Welcome" id="bottom">Go to Top</a>
     <br />
+
     <h3>Ozzie 2024 &copy; Gomycode</h3>
   </body>
 </html>
